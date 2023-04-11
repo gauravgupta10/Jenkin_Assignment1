@@ -22,14 +22,9 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.1.0</version>
-    <scope>test</scope>
+    <scope>compile</scope>
 </dependency>
-  	<dependency>
-  		<groupId>Clo</groupId>
-  		<artifactId>Autosite</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
-  </dependencies>
+  	  </dependencies>
   <build>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
