@@ -1,12 +1,10 @@
+
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>Clo</groupId>
   <artifactId>Autosite</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <properties>
- <maven.compiler.source>1.8</maven.compiler.source>
- <maven.compiler.target>1.8</maven.compiler.target>
-</properties> <dependencies>
+  <dependencies>
 	  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
@@ -26,7 +24,12 @@
     <version>7.1.0</version>
     <scope>test</scope>
 </dependency>
-  	  </dependencies>
+  	<dependency>
+  		<groupId>Orgnn</groupId>
+  		<artifactId>SeleniumDay1</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
   <build>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
@@ -77,3 +80,6 @@
         </pluginManagement>
         </build>
 </project>
+apps-fileview.texmex_20230329.07_p0
+pom.xml
+Displaying pom.xml.
