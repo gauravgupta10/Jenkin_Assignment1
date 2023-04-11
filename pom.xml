@@ -25,8 +25,8 @@
     <scope>test</scope>
 </dependency>
   	<dependency>
-  		<groupId>Orgnn</groupId>
-  		<artifactId>SeleniumDay1</artifactId>
+  		<groupId>Clo</groupId>
+  		<artifactId>Autosite</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   </dependencies>
